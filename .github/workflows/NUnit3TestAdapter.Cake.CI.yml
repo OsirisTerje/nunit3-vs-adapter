@@ -10,4 +10,5 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Build with cake
-      run: pwsh .\build
+      run: build.ps1
+      shell: pwsh
